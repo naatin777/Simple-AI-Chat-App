@@ -1,0 +1,90 @@
+{
+  "app": {
+    "title": "AI Chat",
+    "description": "AI chat app with OpenRouter, shadcn/ui, and Drizzle SQLite"
+  },
+  "sidebar": {
+    "newConversation": "New conversation",
+    "conversationList": "Conversations",
+    "noConversations": "No conversations yet",
+    "openMenu": "Open menu",
+    "toggleRight": "Toggle directory sidebar"
+  },
+  "conversation": {
+    "defaultTitle": "New conversation",
+    "copySuffix": "copy",
+    "rename": "Rename",
+    "pin": "Pin",
+    "unpin": "Unpin",
+    "duplicate": "Duplicate",
+    "duplicateDirectories": "Duplicate (directories only)",
+    "delete": "Delete",
+    "renameTitle": "Rename conversation",
+    "renameDescription": "Enter a title for this conversation.",
+    "deleteTitle": "Delete conversation",
+    "deleteDescription": "Delete \"{{title}}\"? This action cannot be undone.",
+    "cancel": "Cancel",
+    "save": "Save"
+  },
+  "chat": {
+    "title": "AI Chat",
+    "emptyState": "Send a message to start the conversation.",
+    "you": "You",
+    "assistant": "Assistant",
+    "inputPlaceholder": "Type a message... (@ file · / command)",
+    "referenceInclude": "Include file / directory",
+    "referenceExclude": "Exclude file / directory",
+    "referenceSlash": "Commands",
+    "slashAll": "Select all registered files",
+    "slashNone": "Clear all selections",
+    "send": "Send",
+    "inputHint": "Enter for new line · Shift+Enter / Ctrl+Enter / ⌘+Enter to send",
+    "sources": "Sources used",
+    "sourceChunk": "Chunk {{current}}/{{total}}",
+    "sourceScore": "Relevance {{score}}",
+    "webSearchOn": "Web search on",
+    "webSearchOff": "Web search off",
+    "webSearchPending": "Searching the web...",
+    "webSearching": "Searching: {{query}}",
+    "webSearchDone": "Search complete: {{query}}",
+    "webSearchComplete": "Web search complete",
+    "webSearchError": "Web search failed",
+    "webSources": "Web sources",
+    "webSourcesForQuery": "Results for \"{{query}}\""
+  },
+  "directory": {
+    "add": "Add directory",
+    "list": "Directories",
+    "empty": "No directories yet",
+    "remove": "Remove directory",
+    "loading": "Loading...",
+    "error": "Failed to load directory",
+    "pickUnsupported": "Directory picker is not supported in this environment"
+  },
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "ja": "日本語"
+  },
+  "filePreview": {
+    "close": "Close",
+    "loading": "Loading...",
+    "error": "Failed to load file"
+  },
+  "settings": {
+    "title": "Settings",
+    "description": "Change app preferences",
+    "appearance": "Appearance",
+    "theme": "Theme",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeSystem": "System",
+    "language": "Language",
+    "openSettings": "Open settings",
+    "data": "Data",
+    "resetDescription": "Delete all conversations, messages, and RAG indexes (local development only).",
+    "resetConfirm": "Delete all conversation data? This cannot be undone.",
+    "resetAllData": "Reset database",
+    "resetting": "Resetting..."
+  }
+}

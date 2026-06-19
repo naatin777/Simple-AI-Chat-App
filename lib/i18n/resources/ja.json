@@ -1,0 +1,90 @@
+{
+  "app": {
+    "title": "AI Chat",
+    "description": "OpenRouter、shadcn/ui、Drizzle SQLite を使った AI チャットアプリ"
+  },
+  "sidebar": {
+    "newConversation": "新しい会話",
+    "conversationList": "会話一覧",
+    "noConversations": "会話がありません",
+    "openMenu": "メニューを開く",
+    "toggleRight": "ディレクトリサイドバーを切り替え"
+  },
+  "conversation": {
+    "defaultTitle": "新しい会話",
+    "copySuffix": "コピー",
+    "rename": "名前を変更",
+    "pin": "ピン留め",
+    "unpin": "ピン留めを解除",
+    "duplicate": "複製",
+    "duplicateDirectories": "複製（ディレクトリのみ）",
+    "delete": "削除",
+    "renameTitle": "名前を変更",
+    "renameDescription": "会話のタイトルを入力してください。",
+    "deleteTitle": "会話を削除",
+    "deleteDescription": "「{{title}}」を削除しますか？この操作は取り消せません。",
+    "cancel": "キャンセル",
+    "save": "保存"
+  },
+  "chat": {
+    "title": "AI Chat",
+    "emptyState": "メッセージを送信して会話を始めましょう。",
+    "you": "あなた",
+    "assistant": "アシスタント",
+    "inputPlaceholder": "メッセージを入力... (@ ファイル指定 · / コマンド)",
+    "referenceInclude": "含めるファイル / ディレクトリ",
+    "referenceExclude": "除外するファイル / ディレクトリ",
+    "referenceSlash": "コマンド",
+    "slashAll": "登録済みの全ファイルを選択",
+    "slashNone": "すべての選択を解除",
+    "send": "送信",
+    "inputHint": "Enter で改行 · Shift+Enter / Ctrl+Enter / ⌘+Enter で送信",
+    "sources": "参照したソース",
+    "sourceChunk": "チャンク {{current}}/{{total}}",
+    "sourceScore": "関連度 {{score}}",
+    "webSearchOn": "Web検索オン",
+    "webSearchOff": "Web検索オフ",
+    "webSearchPending": "Web検索中...",
+    "webSearching": "Web検索中: {{query}}",
+    "webSearchDone": "Web検索完了: {{query}}",
+    "webSearchComplete": "Web検索完了",
+    "webSearchError": "Web検索に失敗しました",
+    "webSources": "参照したWebサイト",
+    "webSourcesForQuery": "「{{query}}」の検索結果"
+  },
+  "directory": {
+    "add": "新しいディレクトリを追加",
+    "list": "ディレクトリ",
+    "empty": "ディレクトリがありません",
+    "remove": "ディレクトリを削除",
+    "loading": "読み込み中...",
+    "error": "ディレクトリを読み込めませんでした",
+    "pickUnsupported": "この環境ではディレクトリ選択に対応していません"
+  },
+  "language": {
+    "label": "言語",
+    "en": "English",
+    "ja": "日本語"
+  },
+  "filePreview": {
+    "close": "閉じる",
+    "loading": "読み込み中...",
+    "error": "ファイルを読み込めませんでした"
+  },
+  "settings": {
+    "title": "設定",
+    "description": "アプリの設定を変更します",
+    "appearance": "外観",
+    "theme": "テーマ",
+    "themeLight": "ライト",
+    "themeDark": "ダーク",
+    "themeSystem": "システム",
+    "language": "言語",
+    "openSettings": "設定を開く",
+    "data": "データ",
+    "resetDescription": "会話・メッセージ・RAG インデックスをすべて削除します（ローカル開発のみ）。",
+    "resetConfirm": "すべての会話データを削除しますか？この操作は取り消せません。",
+    "resetAllData": "データベースをリセット",
+    "resetting": "リセット中..."
+  }
+}
